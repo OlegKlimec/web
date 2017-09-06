@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css?family=Arimo|Ubuntu|Ubuntu+Mono');
+
+body{
+    background-color: #f2f2f2;
+    font-family: "Arimo";
+    font-weight: 300;
+    font-size: 16px;
+    color: #555;
+
+    -webkit-font-smoothing:antialiased;
+    -webkit-overflow-scrolling:touch;
+
+    margin-top: 70px;
+
+}
+
+h1 h2 h3 h4 h5 h6{
+    font-family: "Ubuntu+Mono";
+    font-weight: 300;
+    color: #fff;
+  
+}
+
+a:hover, a:focus{
+    color: #172727;
+    text-decoration: none;
+    outline: 0;
+
+
+}
+.centered{
+    text-align: center;
+
+}
+
+hr{
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid #ccc;
+    margin: 1em 0;
+    padding: 0;
+}
+
+.logo img{
+    width: 180px;
+    margin: 0px 0 0 0;
+    padding: 0 20px 0 0;
+}
+
+.bg-home img{
+    width: 100%;
+ 
+    position:relative;
+}
+
+
+.navbar{
+    font-weight: 300;
+    font-size:14px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+
+}
+
+.navbar-default{
+    background: #172727;
+    border-color: #172727;
+}
+
+
+#headerwrap{
+    background:url(../images/header.jpg) no-repeat center top;
+    padding-top: 130px;
+    text-align: center;
+    background-position: center center;
+    min-height: 900px;
+    width: 100%;
+    background-size: 100%;
+
+
+
+    -webkit-background-size:cover; /*чтобы наше изображение нормально смотрелось на всех экранах*/
+    -moz-background-size:cover;
+    -o-background-size:cover;
+    background-size: cover;
+}
+
+
+
+#headerwrap p{
+    font-size:  2rem;
+    
+}
+
+#headerwrap  p {
+      color: #fff;
+    
+}
+
+#headerwrap h1 {
+      color: #fff;
+    
+}
+
+
+
+#headersite{
+    padding-top: 235px;
+    background-position: center center;
+    min-height: 500px;
+    width: 100%;
+    background-size: 100%;
+    position:relative;
+    
+    -webkit-background-size:cover; /*чтобы наше изображение нормально смотрелось на всех экранах*/
+    -moz-background-size:cover;
+    -o-background-size:cover;
+    background-size: cover;
+}
