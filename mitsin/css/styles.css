@@ -1,10 +1,11 @@
-@import url('https://fonts.googleapis.com/css?family=Arimo|Ubuntu|Ubuntu+Mono');
+@import url('https://fonts.googleapis.com/css?family=Raleway:400,500,600,700');
+
 body {
-	background-color:#f2f2f2;
-	font-family:"Arimo";
-	font-weight:300;
-	font-size:16px;
-	color:#555;
+	font-family: Raleway,sans-serif;
+    font-size: 14px;
+    line-height: 1.6;
+    color: #636b6f;
+    background-color: #fff;
 	-webkit-font-smoothing:antialiased;
 	-webkit-overflow-scrolling:touch;
 	margin-top:70px;
@@ -15,10 +16,11 @@ h1 h2 h3 h4 h5 h6 {
 	color:#fff;
 }
 a:hover,a:focus {
-	color:#172727;
+	color:#fd7160;
 	text-decoration:none;
 	outline:0;
 }
+
 .centered {
 	text-align:center;
 }
@@ -103,15 +105,12 @@ hr {
 		font-variant:small-caps;
 	margin-bottom:2rem;
 }
-
 .witch img {
 	width:100%;
 }
-
 .home__magic__tools__title {
 	padding-top:5rem;
 }
-
 .home__magic__tools__item__webpack img,.home__magic__tools__item__laravel img,.home__magic__tools__item__sass img,.home__magic__tools__item__python img,.home__magic__tools__item__jetbrains img {
 	width:2.5rem;
 	height:2.5rem;
@@ -122,77 +121,169 @@ hr {
 	padding-bottom:4rem;
 	padding-top:7rem;
 }
-
-
-
 .home__features__header__icon,.home__portfolio__icon {
 		font-size:40px;
 }
-
 .separator {
 	display:inline-block;
 	width:10rem;
 	height:.2rem;
 	background-color:#fd7160;
 }
-
 #portfolio {
 	padding-top:10rem;
 	padding-bottom:4rem;
 	background-color:#efefef;
-	text-align: center;
+	text-align:center;
 }
-
-.button__portfolio{
-
-	display: inline-block;
-    margin: auto;
-    margin-top: 4rem;
-    font-size: 2rem;
-    text-transform: uppercase;
-  
-    color: #c3c3c3;
-   
-    transition-duration: 1s;
+.button__portfolio {
+	display:inline-block;
+	margin:auto;
+	margin-top:4rem;
+	font-size:2rem;
+	text-transform:uppercase;
+	color:#c3c3c3;
+	transition-duration:1s;
 }
-.button__portfolio:hover{
-
-color: #fd7160;
-	
+.button__portfolio:hover {
+	color:#fd7160;
 }
-
 #feedback {
 	padding-top:10rem;
 	padding-bottom:4rem;
-	text-align: center;
+	text-align:center;
 }
-
-.feedback__body__title{
-	    margin: 2rem;
-	font-size: 24px;
+.feedback__body__title {
+	 margin:2rem;
+	font-size:24px;
 }
 .feedback__body__contact {
-	font-size: 2rem;
-	color: #fd7160;
+	font-size:2rem;
+	color:#fd7160;
+}
+.feedback__body__contact:hover {
+		color:#fd7160;
+}
+.feedback__body__or {
+	padding-top:2rem;
+	 text-transform:lowercase;
+	font-variant:small-caps;
+	font-size:2rem;
+}
+.feedback__body__or:after,.feedback__body__or:before {
+	content:"~";
+}
+
+/*form*/
+.form{
+	padding-top: 30px;
+
+}
+
+.home__feedback__body__form__item {
+	border:none;
+	border-bottom:1px solid #ccd0d2;
+}
+.home__feedback__body__form__button {
+	width:100%;
+	display:inline-block;
+	margin:auto;
+	margin-top:2rem;
+	text-transform:uppercase;
+	border-color:#fc442e;
+	background-color:#fd7160;
+	color:#fff;
+	transition-duration:0.5s;
+	border:1px solid transparent;
+	padding:6px 12px;
+	font-size:14px;
+	line-height:1.6;
+	border-radius:4px;
+}
+.home__feedback__body__form__button:hover {
+	color:#333;
+	border-color:#000;
+	background-color: #ccc;
+}
+
+.home__feedback__body__form__item_text{
+width: 100%;
+	    padding: .5rem 1rem;
+    display: block;
+    border: 2px dashed #b1b7ba;
+}
+
+/*monster*/
+.monster {
+	width: 100%;
+	text-align: left; 
+
+}
+
+.monster img{
+	width: 20%;
+	text-align: left; 
+	float:left; 
+	margin: 0 0 -10px 0;
+}
+
+/*footer*/
+.footer__icon{
+	font-size: 4rem;
+margin-bottom: 4rem;
+    display: inline-block;
+    padding-top: 2rem;
+
+}
+
+.footer {
+	width: 100%;
+    padding: 4rem 0;
+    background-color: #363942;
+    text-align: center;
+}
+
+.footer__nav{
+	font-size: 1.7rem;
+	    margin-bottom: 4rem;
+    text-transform: uppercase;
+    font-weight: 100;
+
 
 
 }
-.feedback__body__contact:hover{
-	
-	color: #fd7160;
+
+.footer__nav__item {
+    margin-right: 2rem;
+    color: #fd7160;
+        transition-duration: 1s;
+    cursor: pointer;
+text-decoration: none;
+
+}
+
+.footer__nav a:hover {
+   
+    color: #fff;
+    text-decoration: none;
+
+}
+
+
+.footer__text span{
+
+color: #fd7160;
+font-size: 1.7rem;
 
 
 }
 
-.feedback__body__or{
-	padding-top: 2rem;
-	    text-transform: lowercase;
-    font-variant: small-caps;
-        font-size: 2rem;
 
-}
+.footer__text {
 
-.feedback__body__or:after, .feedback__body__or:before {
-    content: "~";
+
+font-size: 1.7rem;
+
+
 }
 
